@@ -1,4 +1,4 @@
-
+import EventItem from '../components/EventItem';
 export default function Home() {
   return (
     <div>
@@ -8,14 +8,15 @@ export default function Home() {
         alt="Branding illustration"
       />
 
-      <p class="coming-soon-message">
+      {/*<p class="coming-soon-message">
         Working on some fun stuff, <br />
         Check back soon!
         <br />
         <span class="signature">- Veronica &amp; Nick</span>
-      </p>
-
-      <EventbriteEmbed eventId="2003304799583" />
+      </p>*/}
+      <div> 
+        <EventItem date="Nov 8th" title="Sundays at Citizen" eventId="2003304799583"></EventItem>
+      </div>
 
     </div>
   );

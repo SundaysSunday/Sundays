@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import '../CSS/styles.css';
 
 export default function EventbriteEmbed({ eventId }) {
   useEffect(() => {
@@ -63,8 +62,8 @@ export default function EventbriteEmbed({ eventId }) {
       </noscript>
 
       <button
+        className="eventbrite-button"
         id={`eventbrite-widget-modal-trigger-${eventId}`}
-        type="button"
       >
         Buy Tickets
       </button>

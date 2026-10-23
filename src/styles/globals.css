@@ -1,6 +1,10 @@
+@import "tailwindcss";
+
+
 :root {
   --white: #ffffff;
   --black: #171717;
+  --red:#820a00;
   
 }
 
@@ -14,7 +18,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.5rem; margin-top: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
@@ -47,4 +51,35 @@ a {
 
 .signature {
   font-style: italic; font-size: 1.25rem;
+}
+
+.eventbrite-button {
+                    display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    font-weight: 500;
+                    border: 1px solid transparent;
+                    border-radius: 2px;
+                    height: 36px;
+                    line-height: 34px;
+                    font-size: 14px;
+                    color: var(--white);
+                    background-color: var(--red);
+                    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+                    padding: 0 18px;
+                    :hover {
+                        color: #ffffff;
+                        background-color: #006570;
+                    }
+                  }
+
+.event-item-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.event-title {
+  flex-grow: 2;
 }
