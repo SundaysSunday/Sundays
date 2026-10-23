@@ -12,6 +12,7 @@ content:
       - { name: url, label: Link, type: string }
       - { name: coverImage, label: Cover image, type: string }
       - { name: date, label: Date, type: string, required: true}
+      - { name: address, label: Address, type: string, required: true}
   - name: gallery
     label: Gallery
     type: collection
