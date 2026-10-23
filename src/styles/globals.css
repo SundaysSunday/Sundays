@@ -26,7 +26,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;}
+  height: 100vh;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+  
 
 * {
   box-sizing: border-box;
@@ -39,7 +43,14 @@ a {
   text-decoration: none;
 }
 
-
+#__next {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .branding-image {
   max-width: 28vw; min-width: 28vh; height: auto;
@@ -76,10 +87,19 @@ a {
 .event-item-container {
   width: 100%;
   display: flex;
-  gap: 20px;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
 }
 
 .event-title {
   flex-grow: 2;
+  text-align: center;
+}
+
+.event-item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

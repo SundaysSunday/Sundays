@@ -1,7 +1,7 @@
 import EventItem from '../components/EventItem';
 export default function Home() {
   return (
-    <div>
+    <>
       <img
         class="branding-image"
         src="https://github.com/SundaysSunday/Sundays/blob/main/images/Girl_Transparent.png?raw=true"
@@ -14,10 +14,10 @@ export default function Home() {
         <br />
         <span class="signature">- Veronica &amp; Nick</span>
       </p>*/}
-      <div> 
+      <div class="event-item-list"> 
         <EventItem date="Nov 8th" title="Sundays at Citizen" eventId="2003304799583"></EventItem>
       </div>
 
-    </div>
+    </>
   );
 }
