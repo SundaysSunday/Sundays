@@ -62,10 +62,10 @@ export default function EventbriteEmbed({ eventId }) {
       </noscript>
 
       <button
-        className="eventbrite-button"
+        className="purchase-button"
         id={`eventbrite-widget-modal-trigger-${eventId}`}
       >
-        Buy Tickets
+        Coursed Meal
       </button>
     </>
   );
