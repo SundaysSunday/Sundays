@@ -15,6 +15,8 @@ export default function Home() {
         <span class="signature">- Veronica &amp; Nick</span>
       </p>
 
+      <EventbriteEmbed eventId="2003304799583" />
+
     </div>
   );
 }
