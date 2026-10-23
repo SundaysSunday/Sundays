@@ -4,7 +4,7 @@ export default function Home() {
     <div>
       <img
         class="branding-image"
-        src="../../public/branding/Girl_Transparent.png"
+        src="https://github.com/SundaysSunday/Sundays/blob/main/images/Girl_Transparent.png?raw=true"
         alt="Branding illustration"
       />
 
