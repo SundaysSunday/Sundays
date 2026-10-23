@@ -102,7 +102,8 @@ a {
 }
 
 .purchase-button {
-  
+    font-size: clamp(0.75rem,  4vw + 1rem, 1rem);
+
                     display: inline-block;
                     outline: none;
                     cursor: pointer;
@@ -115,7 +116,7 @@ a {
                     color: var(--white);
                     background-color: var(--red);
                     transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
-                    margin:10px;
+                    margin:3px;
                     padding: 0 15px;
                     :hover {
                         color: #ffffff;
@@ -161,11 +162,12 @@ a {
 }
 
 .event-button-container{
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
 }
 @theme inline {
   --font-sans: var(--font-sans);
