@@ -4,7 +4,7 @@ export default function Home() {
     <div>
       <img
         class="branding-image"
-        src="public/images/branding/Girl_Transparent.png"
+        src="../../public/branding/Girl_Transparent.png"
         alt="Branding illustration"
       />
 
