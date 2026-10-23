@@ -15,10 +15,10 @@ export default function Home() {
         Check back soon!
         <br />
         <span class="signature">- Veronica &amp; Nick</span>
-      </p>*/}
+      </p>
       <AnimatedCountdown targetDate={new Date(2026, 10, 8)}
       variant="modern"
-      size="md" />
+      size="md" />*/}
     <h3>Events</h3>
 
       <div className="event-item-list"> 
