@@ -133,7 +133,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
+  gap: 10px;
 }
 
 .event-text-container {
@@ -162,11 +162,12 @@ a {
 }
 
 .event-button-container{
-  flex-grow: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
 
 }
 @theme inline {
@@ -228,7 +229,7 @@ p{
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(0.75rem,  4vw + 1rem, 1rem);
+  font-size: clamp(0.75rem,  4vw + 1rem, 1.2rem);
   text-align: center;
 }
 
