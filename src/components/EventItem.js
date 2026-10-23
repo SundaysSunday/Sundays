@@ -4,9 +4,11 @@ export default function EventItem({ date, title, eventId }) {
 
     return(
         <div className="event-item-container">
+            <div className="event-text-container">
             <p className="event-date">{date}</p>
             
             <p className="event-title">{title}</p>
+            </div>
             <div className="event-button-container">
                 <EventbriteEmbed eventId={eventId} />
 
