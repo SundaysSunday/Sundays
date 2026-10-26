@@ -21,7 +21,7 @@ export default function Home() {
       size="md" />*/}
     <h3>Events</h3>
 
-      <div className="event-item-list"> 
+      <div className="event-item-list">
         <EventItem date="Nov 8th" title="Sundays at Citizen" eventId="2003304799583"></EventItem>
       </div>
 
