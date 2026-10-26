@@ -12,7 +12,7 @@ export default function Document() {
         
         <meta property="og:title" content="Sundays" />
         <meta property='og:description' content="Share a Meal at Sundays" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/SundaysSunday/Sundays/refs/heads/main/images/Sundays_Only_Transparent_320x320.png" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/SundaysSunday/Sundays/refs/heads/main/images/Instagram_Logo_Transparent_320x320.png" />
 
       </Head>
       <body className="antialiased">
