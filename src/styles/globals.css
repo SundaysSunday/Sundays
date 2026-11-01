@@ -77,7 +77,6 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 #__next {
@@ -93,6 +92,14 @@ a {
   max-width: 28vw; min-width: 28vh; height: auto;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: start;
+  
+}
+
 .coming-soon-message{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.5rem; margin-top: 20px;
 }
@@ -103,6 +110,7 @@ a {
 
 .purchase-button {
     font-size: clamp(0.75rem,  4vw + 1rem, 1rem);
+    text-decoration: none;
 
                     display: inline-block;
                     outline: none;
@@ -155,6 +163,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .event-date {
@@ -220,7 +229,8 @@ a {
 h3{
   font-family: var(--title);
   font-size: 1.5rem;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p{
@@ -230,7 +240,6 @@ p{
   font-weight: 300;
   font-style: normal;
   font-size: clamp(0.75rem,  4vw + 1rem, 1.2rem);
-  text-align: center;
 }
 
 @layer base {

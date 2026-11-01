@@ -1,5 +1,5 @@
+import Contact from '@/components/Contact';
 import EventItem from '../components/EventItem';
-import { AnimatedCountdown } from "../components/animated-countdown";
 
 export default function Home() {
   return (
@@ -10,21 +10,14 @@ export default function Home() {
         alt="Branding illustration"
       />
 
-      {/*<p class="coming-soon-message">
-        Working on some fun stuff, <br />
-        Check back soon!
-        <br />
-        <span class="signature">- Veronica &amp; Nick</span>
-      </p>
-      <AnimatedCountdown targetDate={new Date(2026, 10, 8)}
-      variant="modern"
-      size="md" />*/}
+      
     <h3>Events</h3>
 
       <div className="event-item-list">
         <EventItem date="Nov 8th" title="Sundays at Citizen" eventId="2003304799583"></EventItem>
       </div>
-
+    
+    <Contact />
     </>
   );
 }
