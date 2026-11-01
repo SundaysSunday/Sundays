@@ -16,7 +16,7 @@ export default function Home() {
       <div className="event-item-list">
         <EventItem date="Nov 8th" title="Sundays at Citizen" eventId="2003304799583"></EventItem>
       </div>
-    
+    <div className="spacer"></div>
     <Contact />
     </>
   );

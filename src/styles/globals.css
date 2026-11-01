@@ -97,7 +97,12 @@ a {
   flex-direction: column;
   width: 100%;
   text-align: start;
+
   
+}
+
+.contact-info {
+  font-size: clamp(0.75rem,  3.5vw + 0.95rem, 0.95rem);
 }
 
 .coming-soon-message{
@@ -106,6 +111,10 @@ a {
 
 .signature {
   font-style: italic; font-size: 1.25rem;
+}
+
+.spacer {
+  height: 50px;
 }
 
 .purchase-button {
