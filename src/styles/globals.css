@@ -64,7 +64,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin-left: 6.25vw;
   margin-right: 6.25vw;
 }
@@ -92,13 +91,23 @@ a {
   max-width: 28vw; min-width: 28vh; height: auto;
 }
 
+.landing{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin:25px;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   text-align: start;
+  margin: 25px;
 
-  
 }
 
 .contact-info {
