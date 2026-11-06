@@ -36,7 +36,7 @@
 .drink-spread {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width: 300px;
+  width: 350px;
   border-radius: 40% 60% 60% 40% / 30% 70% 30% 70%;
   animation: morph 10s linear infinite alternate;
 }
@@ -51,7 +51,7 @@
 }
 
 .crisp-drink {
-  width: 250px;
+  width: 300px;
   border-radius: 40% 60% 60% 40% / 30% 70% 30% 70%;
   animation: morph 10s linear infinite alternate;
 }
